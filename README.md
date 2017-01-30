@@ -1,0 +1,2 @@
+# Optimizing-Hadoop-s-MapReduce-scheduling-policies
+Explored the possibility of improving the real-time Hadoop scheduling. After implementing three kinds of schedulers: First-In-First-Out scheduler, Shortest Running Time scheduler and Earliest Deadline scheduler. Our results suggest that, under low and medium workload situations, Shortest Running Time Scheduler might be a good real-time Hadoop scheduler to meet the jobs’ deadline requirement, while under the high workload conditions, Earliest Deadline Scheduler is a better choice.
